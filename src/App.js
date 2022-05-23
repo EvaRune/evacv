@@ -16,7 +16,6 @@ class App extends React.Component {
     }
 
     setWords() {
-        console.log("hey")
         const wordlist = Words.words
         const totalwords = wordlist.length
         const random = (min, max) =>

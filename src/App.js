@@ -84,7 +84,7 @@ class App extends React.Component {
                                 act={true}
                                 link="mailto:eva.merlot@outlook.fr"
                             />
-                            <Button label="Téléchargez mon CV" link="#" />
+                            <Button label="Téléchargez mon CV" link="https://drive.google.com/file/d/1Lqx36YQ1EPZ9AcMjovoMWUMOTOOuPxAA/view?usp=sharing" />
                         </div>
                     </section>
                     <footer className="footer">

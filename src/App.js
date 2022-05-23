@@ -24,7 +24,7 @@ class App extends React.Component {
         let currentword = random(1, totalwords)
         const wordstruc = wordlist.map((word, index) => {
             let liclass =
-                index == currentword - 1
+                index === currentword - 1
                     ? "wordlist-item current"
                     : "wordlist-item"
             return (
@@ -84,7 +84,7 @@ class App extends React.Component {
                                 act={true}
                                 link="mailto:eva.merlot@outlook.fr"
                             />
-                            <Button label="Téléchargez mon CV" link="https://drive.google.com/file/d/1Lqx36YQ1EPZ9AcMjovoMWUMOTOOuPxAA/view?usp=sharing" />
+                            <Button label="Téléchargez mon CV" link="https://drive.google.com/file/d/1Lqx36YQ1EPZ9AcMjovoMWUMOTOOuPxAA/view?usp=sharing" newwin={true}/>
                         </div>
                     </section>
                     <footer className="footer">

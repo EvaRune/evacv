@@ -72,7 +72,7 @@ class App extends React.Component {
                         <h1 className="myname">Eva Merlot</h1>
                         <p className="intro">
                             Je suis développeuse web <strong>full-stack</strong>{" "}
-                            à la recherche d’un emploi en métropole Lilloise.
+                            à la recherche d’un emploi.
                         </p>
                     </hgroup>
                     <section className="skills-contact">
